@@ -40,6 +40,12 @@ INCRMD watches PROJECT.md
 | Precision of description    | Across different prompts, the description of a feature may become distorted. One prompt may request A, while another requests B, which may contradict A. The AI can lose the intended final state. | Precision remains high because every aspect of the desired final state is explicitly described. |
 | Precision over time         | Decreases                                                                                                                                                                                          | Increases as `PROJECT.md` becomes more detailed                                                 |
 
+## FAQ
+
+- **How many files am I modifying during the work?**<br />Answer: You should modify ONLY PROJECT.md.
+
+- **Can I edit code files manually?**<br />Answer: This is an early experiment, so you should try not to edit the code. Instead, improve the description if you encounter any unexpected outcomes.
+
 ## 💡 License
 
 This project is released under the MIT license.
