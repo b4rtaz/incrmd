@@ -1,0 +1,37 @@
+{
+  "name": "incrmd",
+  "description": "CLI tool that turns PROJECT.md edits into incremental AI coding changes using diffs.",
+  "author": "b4rtaz",
+  "license": "MIT",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "watch": "node ./incrmd.js"
+  },
+  "bin": {
+    "incrmd": "./incrmd.js"
+  },
+  "dependencies": {
+    "@openai/codex-sdk": "^0.107.0",
+    "diff": "^8.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "keywords": [
+    "ai",
+    "ai-coding",
+    "ai-assistant",
+    "codex",
+    "developer-tools",
+    "cli",
+    "markdown",
+    "project-spec",
+    "spec-driven-development",
+    "incremental",
+    "diff",
+    "automation",
+    "llm",
+    "ai-workflow"
+  ]
+}
