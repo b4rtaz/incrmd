@@ -9,7 +9,13 @@
     "watch": "node ./incrmd.js"
   },
   "bin": {
-    "incrmd": "./incrmd.js"
+    "incrmd": "incrmd.js"
+  },
+  "files": [
+    "incrmd.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "@openai/codex-sdk": "^0.107.0",
