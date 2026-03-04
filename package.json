@@ -1,10 +1,18 @@
 {
   "name": "incrmd",
   "description": "CLI tool that turns PROJECT.md edits into incremental AI coding changes using diffs.",
-  "author": "b4rtaz",
   "license": "MIT",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": {
+    "name": "b4rtaz",
+    "url": "https://github.com/b4rtaz"
+  },
+  "homepage": "https://github.com/b4rtaz/incrmd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b4rtaz/incrmd.git"
+  },
   "scripts": {
     "watch": "node ./incrmd.js"
   },
