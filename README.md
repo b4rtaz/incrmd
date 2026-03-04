@@ -1,3 +1,5 @@
+![INCRMD](.github/cover.jpg)
+
 # INCRMD 🔺
 
 INCRMD 🔺 is an experiment exploring a different approach to interacting with 🤖 AI coding tools such as Codex, Claude Code, or OpenCode.
